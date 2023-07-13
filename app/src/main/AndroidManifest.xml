@@ -12,7 +12,16 @@
         android:theme="@style/Theme.NaviBook"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.RecipeUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RecipeCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
